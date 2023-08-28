@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-nav {
+    @apply list-none flex items-center justify-between mx-6 my-10;
+}
+
+.hamburger {
+    @apply w-6;
+}
+
+.working-illustration-container {
+    @apply w-130 ml-30 mt-12;
+}
+
+
+.heading-container {
+    @apply mt-5 mx-6;
+}
+
+.heading {
+    @apply text-center font-bold pt-6 text-4xl;
+    color: var(--Very-Dark-Blue);
+}
+
+.sub-heading {
+    color: var(--Grayish-Violet);
+    @apply font-medium mt-4;
+}
