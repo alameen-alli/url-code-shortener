@@ -1,0 +1,35 @@
+main {
+    background-color: hsl(0deg 3.66% 83.9%);
+    height: 100vh;
+}
+
+.link-container {
+    background-color: var(--Dark-Violet);
+    margin: 160px 25px;
+    border-radius: 8px;
+    padding: 25px;
+    position: relative;
+    transform: translate(0, -50%);
+    background-image: url('../../assets/images/bg-shorten-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.link-input, .link-submit {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.link-input {
+    text-align: left;
+    padding-left: 20px;
+    color: var(--Grayish-Violet);
+}
+
+.link-submit {
+    margin-top: 20px;
+    background-color: var(--Cyan);
+    color: white;
+    font-weight: 700;
+}
