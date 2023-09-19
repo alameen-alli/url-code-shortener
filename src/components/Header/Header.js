@@ -16,7 +16,7 @@ const Header = () => {
         <img className='working-illustration' src={working} alt='working-illustration' />
       </div>
       <div className='heading-container'>
-        <h1 className='heading'>More than just shorter links</h1>
+        <h1>More than just shorter links</h1>
         <p className='sub-heading'>Build your brand’s recognition and get detailed insights
           on how your links are performing.
         </p>

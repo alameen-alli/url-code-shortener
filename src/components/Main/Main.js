@@ -14,6 +14,14 @@ const Main = () => {
                     </div>
                 </div>
             </section>
+            <section>
+                <div className='stat-container'>
+                    <h2 className='stat-header'>Advanced Statistics</h2>
+                    <p>Track how your links are performing across the web with our
+                        advanced statistics dashboard.
+                    </p>
+                </div>
+            </section>
         </main>
     )
 }

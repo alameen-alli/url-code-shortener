@@ -5,7 +5,7 @@ main {
 
 .link-container {
     background-color: var(--Dark-Violet);
-    margin: 160px 25px;
+    margin: 180px 25px 0px;
     border-radius: 8px;
     padding: 25px;
     position: relative;
@@ -32,4 +32,9 @@ main {
     background-color: var(--Cyan);
     color: white;
     font-weight: 700;
+}
+
+.stat-header {
+    font-weight: 700 !important;
+    font-size: 1.5rem;
 }

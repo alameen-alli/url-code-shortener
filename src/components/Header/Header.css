@@ -20,7 +20,7 @@
     @apply mt-5 mx-6;
 }
 
-.heading {
+.heading-container h1 {
     @apply text-center font-bold pt-6 text-4xl;
     color: var(--Very-Dark-Blue);
 }
